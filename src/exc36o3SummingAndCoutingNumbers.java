@@ -17,11 +17,12 @@ public class exc36o3SummingAndCoutingNumbers {
 			
 			sum = sum + number;
 			counter++;
-			System.out.println(sum);
+			
 					
 			if (number == -1) {
+				counter=counter-1;
 				System.out.println("Thank you!");
-				System.out.println("The sum is: " + sum);
+				System.out.println("The sum is: " + (sum+1));
 				System.out.println("How many numbers: "+ counter);
 				
 				break;
