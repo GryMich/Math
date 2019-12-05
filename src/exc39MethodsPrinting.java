@@ -1,7 +1,5 @@
-import java.util.Scanner;
-
 public class exc39MethodsPrinting {
-	
+	//39.0 - 39.4
 	private static void printTriangle (int size) {
 		
 		int i = 0;
